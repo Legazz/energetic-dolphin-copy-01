@@ -1,0 +1,104 @@
+---
+label: nkjln
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: actions
+    label: actions
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+    - type: boolean
+      name: is_scrolly
+      label: is_scrolly
+    - type: boolean
+      name: is_primary
+      label: is_primary
+  - type: field_group
+    name: bottom_link
+    label: bottom_link
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+    - type: boolean
+      name: has_arrow
+      label: has_arrow
+    - type: boolean
+      name: is_scrolly
+      label: is_scrolly
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: template
+    label: template
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: section_id
+    label: section_id
+  - type: text
+    name: background_style
+    label: background_style
+  - type: field_group_list
+    name: feature_icons
+    label: feature_icons
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: style
+      label: style
+  - type: text
+    name: component
+    label: component
+- type: field_group
+  name: menus
+  label: menus
+  fields:
+  - type: field_group
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: number
+      name: weight
+      label: weight
+- type: text
+  name: template
+  label: template
